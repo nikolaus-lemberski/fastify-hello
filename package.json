@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    
+    "start": "fastify start app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.18.1"
+    "fastify": "^3.18.1",
+    "fastify-cli": "^2.13.0"
   }
 }
